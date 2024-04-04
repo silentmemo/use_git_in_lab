@@ -46,8 +46,11 @@ I will plan out the project in the README.md in the root directory. This documen
 I have to work on different part on the projcet. For each part, I will start a new branch. This is to allow myself to work freely in this branch, knowing that the main branch remains unaltered until I merge the change in this branch to the main branch. Plus it avoid conflits with your collaborator, like in the case if you have to edit the same file. The task can be like a section in an article. A task may be __Identifying interesting regions in the genome through intergration of ChIP-seq peaks and RNA-seq result__
 
 It usually takes days , if not weeks,  to finish working a section. So along the way I will have to save file, which will be commit with a message.  The message is the log of my edit so I will write it concisely, describe what is the aim of the change. Say I __change some parameter in peak calling. Then later on I change the peak caller used in peak calling.__
+![commit history](./commit_history.png)
+
 
 Need not worry if the change is not specific, git will know which file and which line has been edited compare to earlier version. So the strategy is to focus on one specific task for each commit, otherwise, I maybe confused when I look back in history, editing 10 different unrelated files at once.  
+![difference](./diff_github.png)
 
 Then, I will merge the branch to main, if I think I am done with the task. This is a good milestone and opportunity to have a meeting with the collaborator to discuss the finding. 
 After merging to main branch and push that to remote repo, the collaborator can pull the new edits through git pull, so that they have a copy of the new data. 
