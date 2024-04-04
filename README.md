@@ -33,3 +33,15 @@ image credit to :
 https://medium.com/@myitcerts995/git-cheat-sheet-guys-f26e2d96732c
 ```
 
+---
+
+### Applying Git in a project
+
+__Disclaimer: Use git as a tool, make the tools works for you, not the other way around.__
+
+Let say I have a project, that will be one repository (directory or folder in my file explorer). Every data file, such as source code, documentation, or even my NGS fastq files will be stored or linked in that directory.   
+
+I will plan out the project in the README.md in the root directory. This document maybe your project proposal, the index of your thesis. 
+
+
+
