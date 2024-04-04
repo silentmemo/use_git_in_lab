@@ -53,5 +53,27 @@ Then, I will merge the branch to main, if I think I am done with the task. This 
 After merging to main branch and push that to remote repo, the collaborator can pull the new edits through git pull, so that they have a copy of the new data. 
 
 
+---
+
+### Technical aspect
+
+setup on my labtop:
+1. install git for window (https://gitforwindows.org/)
+2. use VS code (https://code.visualstudio.com/)
+3. register github account. (https://github.com/)
+5. install Github Desktop (https://desktop.github.com/)
+
+To start a project:
+1. setup a github repo using Github Desktop
+2. in the file explorer, set the directory structure 
+3. write the project proposal using Markdown in VScode
+4. push the file using the VScode built-in git function
+
+work on HPC:
+1. configure global profile in the git. 
+2. add ssh public key to the github 
+2. git clone via ssh
+3. start working on the project
+
 
 
