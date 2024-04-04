@@ -17,3 +17,8 @@ Git is a popular version control system. If you search a random bioinformatics a
 
 ### What is Github 
 
+Git is not Github. Github is an online platform that host git repositories of different projects. It's like a cloud drive that store the data of the git repository ( docuemnts, codes, data files, etc ). Think of it as OneDrive or Google Drive. 
+
+It is also a social network for developers, where you and your collaborator and strangers on the internet can view and comment and contribute to your project ( if you allow it).   
+
+Github also have some features that enhance productivity, such as Actions and projects. If you configure it properly, you can automate tasks. For example, for each edits you may want the concensus of all your collaborator. Using github action you can configure that. Another example is related to projcet management, repo admin can assign tasks to collaborator, which helps the division of labour. But all these features are suited more to a larger projects, such as project that involves more than a dozen of people.   
