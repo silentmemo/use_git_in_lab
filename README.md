@@ -43,5 +43,7 @@ Let say I have a project, that will be one repository (directory or folder in my
 
 I will plan out the project in the README.md in the root directory. This document maybe your project proposal, the index of your thesis. 
 
+I have to work on different part on the projcet. For each part, I will start a new branch. This is to allow myself to work freely in this branch, knowing that the main branch remains unaltered until I merge the change in this branch to the main branch. Plus it avoid conflits with your collaborator, like in the case if you have to edit the same file. The task can be like a section in an article. 
 
+It usually takes days , if not weeks,  to finish working a section. So along the way I will have to save file, which will be commit with a message.  
 
