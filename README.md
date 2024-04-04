@@ -1,4 +1,4 @@
-# use_git_in_lab
+# use git in lab
 
 ### Introduction
 Working on a research project may span over years, e.g. PhD projects 3-4 years. Keeping track of changes of project probably the most laborious task. To keep track of rationale and associated with the different edits to the documents will be near impossible. To facilitate the proper documentation of records, which is directly related to reproducibility of the work. Also, projects may take efforts from several individuals, using git and github helps everyone to get involved on the same project. Lastly, I think it is cool to be able to put down the url to a code repository of your work in the “Code availability” section, instead of just a vague statement. 
@@ -57,23 +57,30 @@ After merging to main branch and push that to remote repo, the collaborator can 
 
 ### Technical aspect
 
-setup on my labtop:
+#### setup on my labtop:
 1. install git for window (https://gitforwindows.org/)
 2. use VS code (https://code.visualstudio.com/)
 3. register github account. (https://github.com/)
 5. install Github Desktop (https://desktop.github.com/)
 
-To start a project:
+#### To start a project:
 1. setup a github repo using Github Desktop
 2. in the file explorer, set the directory structure 
 3. write the project proposal using Markdown in VScode
 4. push the file using the VScode built-in git function
+![vscode](./vscode_interface.png)
 
-work on HPC:
+#### work on HPC: (disclaimer: setting up is kinda difficult)
 1. configure global profile in the git. 
-2. add ssh public key to the github 
+2. add ssh public key to the github (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 2. git clone via ssh
 3. start working on the project
 
+--- 
+### Troubleshooting
+setup ssh port 
+https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port  
 
+setup user git profile
+https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
 
